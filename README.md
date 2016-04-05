@@ -1,1 +1,1 @@
-# whack-a-mole.github.io/
+# whack-a-mole
