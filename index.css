@@ -11,3 +11,10 @@ body {
     height: 150px;
     background-image:url('');
 }
+
+.penguin1 {
+    width: 200px;
+    height: 200px;
+    float: left;
+    background-image:url('http://previews.123rf.com/images/galdzer/galdzer1205/galdzer120500072/13502382-Heap-dirt-Isolated-on-white-background-Stock-Photo-dirt-mound-mud.jpg');
+}
