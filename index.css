@@ -6,11 +6,11 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
-#title {
+/*#title {
     width: 600px;
     height: 150px;
     background-image:url('');
-}
+}*/
 
 .penguin1:hover, .penguin2:hover, .penguin3:hover, .penguin4:hover, .penguin5:hover, 
 .penguin6:hover, .penguin7:hover, .penguin8:hover, .yeti:hover {
