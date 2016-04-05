@@ -16,5 +16,5 @@ body {
     width: 200px;
     height: 200px;
     float: left;
-    image:url('https://pixabay.com/static/uploads/photo/2014/12/22/00/01/dirt-576619_960_720.png');
+    background-image:url('https://pixabay.com/static/uploads/photo/2014/12/22/00/01/dirt-576619_960_720.png');
 }
