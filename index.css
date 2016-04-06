@@ -11,7 +11,12 @@ body {
     height: 150px;
     background-image:url('');
 }*/
-
+.penguin {
+    /* generic stuff here */
+}
+.penguin1 {
+    /* overrides specific to this */
+}
 .penguin1:hover, .penguin2:hover, .penguin3:hover, .penguin4:hover, .penguin5:hover, 
 .penguin6:hover, .penguin7:hover, .penguin8:hover, .yeti:hover {
     background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Question_Mark.svg/2000px-Question_Mark.svg.png');

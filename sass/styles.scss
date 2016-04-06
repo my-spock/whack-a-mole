@@ -1,0 +1,38 @@
+$bkgd-color: #ccf5f5;
+$hill-image: url('http://res.freestockphotos.biz/pictures/15/15938-illustration-of-a-small-cartoon-mountain-pv.png');
+$q-mark: url('https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Question_Mark.svg/2000px-Question_Mark.svg.png');
+$class-penguin: penguin !default;
+
+body {
+    background-color: $bkgd-color;
+    #gameholder {
+        max-width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .penguin {
+        width: 32%;
+        height: 32%;
+        float: left;
+        background-image:$hill-image;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        &:hover {
+            background-image:$q-mark;
+            cursor: pointer;
+        }
+    }
+
+    @for $i from 1 through 8 {
+        .#{$class-penguin}#{$i} {
+            &:active{
+                background-image: url("https://bcw.blob.core.windows.net/public/img/penguins/img/penguin_#{$i}.png");
+            }
+        }
+    }
+    .yeti {
+        &:active {
+            background-image: url('https://bcw.blob.core.windows.net/public/img/penguins/img/yeti.png')
+         }
+    }
+}
